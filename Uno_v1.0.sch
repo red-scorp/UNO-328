@@ -37830,7 +37830,7 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LMV358?*" device="M" package3d_urn="urn:adsk.eagle:package:16404/2" technology="X" value="MCP6002T-I/SN"/>
-<part name="T1" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" deviceset="PMOSFET" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" technology="_" value="PMOSFET"/>
+<part name="T1" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" deviceset="PMOSFET" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" technology="_" value="AO3401A"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100K"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100K"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
@@ -37844,7 +37844,7 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
-<part name="U2" library="SparkFun-IC-Microcontroller" library_urn="urn:adsk.eagle:library:525" deviceset="ATMEGA328P_TQFP" device="" package3d_urn="urn:adsk.eagle:package:38945/1" value="ATMEGA328P_TQFP"/>
+<part name="U2" library="SparkFun-IC-Microcontroller" library_urn="urn:adsk.eagle:library:525" deviceset="ATMEGA328P_TQFP" device="" package3d_urn="urn:adsk.eagle:package:38945/1" value="ATMEGA328P-AU"/>
 <part name="Q2" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX" device="-7" package3d_urn="urn:adsk.eagle:package:11924/1" value="16MHz"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="12pF"/>
@@ -37854,10 +37854,10 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="CN5" library="SparkFun-Connectors" deviceset="CONN_03X2" device="NO_SILK" value="ICSP"/>
-<part name="CN3" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE" value="Digital2"/>
-<part name="CN4" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" value="Digital1"/>
-<part name="CN6" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" value="POWER"/>
-<part name="CN7" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH" value="Analog"/>
+<part name="CN3" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE" value="DIGITAL10"/>
+<part name="CN4" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" value="DIGITAL8"/>
+<part name="CN6" library="SparkFun-Connectors" deviceset="CONN_08" device="NO_SILK_FEMALE_PTH" value="POWER8"/>
+<part name="CN7" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH" value="ANALOG6"/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -38025,15 +38025,15 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <instance part="SUPPLY5" gate="G$1" x="175.26" y="81.28" smashed="yes">
 <attribute name="VALUE" x="175.26" y="84.074" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="231.14" y="71.12" smashed="yes">
-<attribute name="NAME" x="232.664" y="71.501" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.664" y="66.421" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="226.06" y="71.12" smashed="yes">
+<attribute name="NAME" x="227.584" y="71.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.584" y="66.421" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="231.14" y="76.2" smashed="yes">
-<attribute name="VALUE" x="231.14" y="78.994" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="G$1" x="226.06" y="76.2" smashed="yes">
+<attribute name="VALUE" x="226.06" y="78.994" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="231.14" y="60.96" smashed="yes">
-<attribute name="VALUE" x="228.6" y="58.166" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="226.06" y="60.96" smashed="yes">
+<attribute name="VALUE" x="223.52" y="58.166" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="127" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.73" y="74.93" size="1.778" layer="95" rot="R90"/>
@@ -38184,7 +38184,7 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="231.14" y1="63.5" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="63.5" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
@@ -38247,7 +38247,7 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
-<wire x1="231.14" y1="76.2" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="76.2" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="P" pin="V+"/>
@@ -39323,6 +39323,7 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <approved hash="104,1,40.64,76.2,CN2,VBUS,XUSB,,,"/>
 <approved hash="104,1,190.5,132.08,IC3P,V+,5V,,,"/>
 <approved hash="104,1,190.5,116.84,IC3P,V-,GND,,,"/>
+<approved hash="106,1,40.64,60.96,USB_SHIELD,,,,,"/>
 <approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME2,,,,,"/>
 </errors>
