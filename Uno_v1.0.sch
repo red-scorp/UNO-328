@@ -37820,7 +37820,6 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -37904,6 +37903,7 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="LOGO1" library="_my_logos" deviceset="MFDECLOGO" device="_SQ_10MM" value="MFDECLOGO_SQ_10MM"/>
 <part name="LOGO2" library="_my_logos" deviceset="MFDECLOGO" device="_L_40MM"/>
+<part name="GND24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -37979,8 +37979,8 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <instance part="SUPPLY3" gate="G$1" x="147.32" y="132.08" smashed="yes">
 <attribute name="VALUE" x="144.78" y="134.874" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="91.44" y="106.68" smashed="yes">
-<attribute name="VALUE" x="88.9" y="103.886" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="91.44" y="109.22" smashed="yes">
+<attribute name="VALUE" x="88.9" y="106.426" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="35.56" y="132.08" smashed="yes">
 <attribute name="VALUE" x="33.02" y="134.874" size="1.778" layer="96"/>
@@ -38012,18 +38012,15 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <attribute name="NAME" x="190.5" y="81.915" size="1.778" layer="95"/>
 <attribute name="VALUE" x="190.5" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="185.42" y="55.88" smashed="yes">
-<attribute name="VALUE" x="182.88" y="53.086" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="185.42" y="58.42" smashed="yes">
+<attribute name="VALUE" x="182.88" y="55.626" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="185.42" y="81.28" smashed="yes">
-<attribute name="VALUE" x="185.42" y="84.074" size="1.778" layer="96"/>
+<instance part="SUPPLY4" gate="G$1" x="185.42" y="78.74" smashed="yes">
+<attribute name="VALUE" x="185.42" y="81.534" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="177.8" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.419" y="77.724" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="182.499" y="77.724" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY5" gate="G$1" x="175.26" y="81.28" smashed="yes">
-<attribute name="VALUE" x="175.26" y="84.074" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="226.06" y="71.12" smashed="yes">
 <attribute name="NAME" x="227.584" y="71.501" size="1.778" layer="95"/>
@@ -38051,8 +38048,8 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <attribute name="NAME" x="118.999" y="65.024" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="124.079" y="65.024" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND5" gate="1" x="114.3" y="58.42" smashed="yes">
-<attribute name="VALUE" x="111.76" y="55.626" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="114.3" y="60.96" smashed="yes">
+<attribute name="VALUE" x="111.76" y="58.166" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="A" x="190.5" y="124.46" smashed="yes" rot="MR180">
 <attribute name="NAME" x="193.04" y="121.285" size="1.778" layer="95" rot="MR180"/>
@@ -38111,6 +38108,9 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 </instance>
 <instance part="LOGO1" gate="G$1" x="236.22" y="25.4" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="208.28" y="25.4" smashed="yes"/>
+<instance part="GND24" gate="1" x="170.18" y="73.66" smashed="yes">
+<attribute name="VALUE" x="167.64" y="70.866" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -38133,7 +38133,6 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="114.3" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="111.76" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
 <junction x="91.44" y="111.76"/>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -38178,7 +38177,6 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <segment>
 <pinref part="U1" gate="U1" pin="GND"/>
 <wire x1="187.96" y1="60.96" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="60.96" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -38192,7 +38190,6 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <wire x1="114.3" y1="78.74" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="63.5" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
 <junction x="114.3" y="63.5"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
@@ -38216,6 +38213,11 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="210.82" y1="119.38" x2="210.82" y2="121.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VIN" class="3">
 <segment>
@@ -38236,13 +38238,7 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <segment>
 <pinref part="U1" gate="U1" pin="VCC"/>
 <wire x1="187.96" y1="78.74" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="78.74" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="76.2" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="G$1" pin="5V"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
