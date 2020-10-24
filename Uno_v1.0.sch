@@ -38495,6 +38495,11 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <text x="30.48" y="55.88" size="2.54" layer="94">Main MCU reset</text>
 <text x="195.58" y="149.86" size="2.54" layer="94">Arduino connectors</text>
 <text x="33.02" y="101.6" size="2.54" layer="94">Main MCU crystal</text>
+<text x="35.56" y="22.86" size="1.778" layer="94">SJ1 should be
+closed by default
+to enable MCU
+reset over USB-UART
+chip from host</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -39248,17 +39253,7 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <wire x1="63.5" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 <label x="66.04" y="40.64" size="1.778" layer="95"/>
 <pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="58.42" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="40.64" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<junction x="60.96" y="40.64"/>
-<pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="43.18" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="45.72" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
-<junction x="45.72" y="40.64"/>
+<wire x1="58.42" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="U$1" pin="PC6(/RESET)"/>
@@ -39312,6 +39307,13 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 <label x="20.32" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="SJ1" gate="1" pin="1"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -39326,6 +39328,10 @@ Updated by Ella Wu 2020-07-20&lt;br&gt;
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
