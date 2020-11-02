@@ -239,11 +239,11 @@
 <text x="36.068" y="4.318" size="1.016" layer="21" font="vector" ratio="12" rot="R90">3.3V</text>
 <text x="33.528" y="4.318" size="1.016" layer="21" font="vector" ratio="12" rot="R90">RESET</text>
 <text x="30.988" y="4.318" size="1.016" layer="21" font="vector" ratio="12" rot="R90">IOREF</text>
-<text x="31.877" y="28.194" size="3.81" layer="21" font="vector" ratio="16">UNO</text>
-<wire x1="32.893" y1="27.432" x2="39.37" y2="27.432" width="0.8128" layer="21"/>
-<wire x1="32.893" y1="27.432" x2="32.893" y2="32.766" width="0.8128" layer="21" curve="-180"/>
-<wire x1="32.893" y1="32.766" x2="39.243" y2="32.766" width="0.8128" layer="21"/>
-<wire x1="39.243" y1="32.766" x2="39.37" y2="27.432" width="0.8128" layer="21" curve="-180"/>
+<text x="31.877" y="30.607" size="3.81" layer="21" font="vector" ratio="16">UNO</text>
+<wire x1="32.893" y1="29.845" x2="39.37" y2="29.845" width="0.8128" layer="21"/>
+<wire x1="32.893" y1="29.845" x2="32.893" y2="35.179" width="0.8128" layer="21" curve="-180"/>
+<wire x1="32.893" y1="35.179" x2="39.243" y2="35.179" width="0.8128" layer="21"/>
+<wire x1="39.243" y1="35.179" x2="39.37" y2="29.845" width="0.8128" layer="21" curve="-180"/>
 <text x="0.762" y="2.159" size="1.016" layer="21" font="vector" ratio="12">7-12V</text>
 <text x="25.4" y="38.1" size="1.27" layer="22" font="vector" ratio="16" rot="MR0">UNO v1.0
 (c) Andriy Golovnya
@@ -267,7 +267,7 @@ http://redscorp.net</text>
 <text x="61.976" y="27.178" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">SCK</text>
 <text x="61.976" y="24.257" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">RESET</text>
 <text x="68.326" y="24.765" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">GND</text>
-<text x="68.326" y="27.051" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">MISO</text>
+<text x="68.326" y="27.051" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">MOSI</text>
 <text x="68.326" y="29.972" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">5V</text>
 <text x="3.556" y="20.828" size="0.6096" layer="21" font="vector">+</text>
 <text x="3.556" y="23.368" size="0.6096" layer="21" font="vector">+</text>
