@@ -5,7 +5,7 @@ Main goal of the project is to improve EMV property of original board keeping it
 
 ## Uno_v1.0
 
-**Uno_v1.0** is version 1.0 of the board featuring CH340 USB to UART chip and ATMEGA328P as MCU.
+**Uno_v1.0** is version 1.0 of the board featuring CH340G USB to UART chip and ATMEGA328P as MCU.
 
 Preview:
 
@@ -19,7 +19,7 @@ Features:
 - Uno compatible MCU ATMEGA328P
 - 2 layer board design
 - alternative footprints for MCU: TQFP and HVQFN
-- CH340 chip as USB to UART bridge
+- CH340G chip as USB to UART bridge
 - modern microUSB connector
 - possibly better EMV parameters (not yet tested)
 
