@@ -1,1 +1,11 @@
-My <b>UNO</b> clone
+<b>Uno_v1.0</b> is version 1.0 of the board featuring CH340 USB to UART chip and ATMEGA328P as MCU.<br/>
+Features:
+<ul>
+<li>Uno compatible board pinout</li>
+<li>Uno compatible MCU ATMEGA328P</li>
+<li>2 layer board design</li>
+<li>alternative footprints for MCU: TQFP and HVQFN</li>
+<li>CH340 chip as USB to UART bridge</li>
+<li>modern microUSB connector</li>
+<li>possibly better EMV parameters (not yet tested)</li>
+</ul>
