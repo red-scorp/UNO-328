@@ -1,7 +1,7 @@
 # UNO/328 project
 
 UNO/328 is a clone board of popular Arduino Uno board.
-Main goal of the project is to improve EMV property of original board keeping it still simple and cheap to produce.
+Main goal of the project is to improve EMC property of original board keeping it still simple and cheap to produce.
 
 ## Uno_v1.0
 
@@ -21,7 +21,7 @@ Features:
 - alternative footprints for MCU: TQFP and HVQFN
 - CH340G chip as USB to UART bridge
 - modern microUSB connector
-- possibly better EMV parameters (not yet tested)
+- possibly better EMC parameters (not yet tested)
 
 CAM files are available.
 BoM and PnP files for JLCPCB are available.

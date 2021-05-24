@@ -7,5 +7,5 @@ Features:
 <li>alternative footprints for MCU: TQFP and HVQFN</li>
 <li>CH340G chip as USB to UART bridge</li>
 <li>modern microUSB connector</li>
-<li>possibly better EMV parameters (not yet tested)</li>
+<li>possibly better EMC parameters (not yet tested)</li>
 </ul>
