@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -245,26 +245,26 @@
 (c) Andriy Golovnya
 Designed in Germany
 http://redscorp.net</text>
-<text x="19.685" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">A5</text>
-<text x="22.225" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">A4</text>
-<text x="29.845" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">SCK</text>
-<text x="32.385" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">MISO</text>
-<text x="34.925" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">MOSI/PWM</text>
-<text x="37.465" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">SS/PWM</text>
-<text x="40.005" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">PWM</text>
-<text x="48.895" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">PWM</text>
-<text x="51.435" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">PWM</text>
-<text x="56.515" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">PWM</text>
-<text x="61.595" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">TX</text>
-<text x="64.135" y="49.022" size="0.6096" layer="21" font="vector" ratio="12" rot="R270">RX</text>
-<text x="64.77" y="4.318" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">SCL</text>
-<text x="62.23" y="4.318" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">SDA</text>
-<text x="61.976" y="29.464" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">MISO</text>
-<text x="61.976" y="27.178" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">SCK</text>
-<text x="61.976" y="24.257" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">RESET</text>
-<text x="68.326" y="24.765" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">GND</text>
-<text x="68.326" y="27.051" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">MOSI</text>
-<text x="68.326" y="29.972" size="0.6096" layer="21" font="vector" ratio="12" rot="R90">5V</text>
+<text x="19.812" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">A5</text>
+<text x="22.352" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">A4</text>
+<text x="29.972" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">SCK</text>
+<text x="32.512" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">MISO</text>
+<text x="35.052" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">MOSI/PWM</text>
+<text x="37.592" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">SS/PWM</text>
+<text x="40.132" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">PWM</text>
+<text x="49.022" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">PWM</text>
+<text x="51.562" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">PWM</text>
+<text x="56.642" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">PWM</text>
+<text x="61.722" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">TX</text>
+<text x="64.262" y="49.022" size="0.8128" layer="21" font="vector" ratio="12" rot="R270">RX</text>
+<text x="65.024" y="4.318" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">SCL</text>
+<text x="62.484" y="4.318" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">SDA</text>
+<text x="61.976" y="29.591" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">MISO</text>
+<text x="61.976" y="27.178" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">SCK</text>
+<text x="61.976" y="23.749" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">RESET</text>
+<text x="68.453" y="24.384" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">GND</text>
+<text x="68.453" y="26.924" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">MOSI</text>
+<text x="68.453" y="29.972" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">5V</text>
 <text x="3.556" y="20.828" size="0.6096" layer="21" font="vector">+</text>
 <text x="3.556" y="23.368" size="0.6096" layer="21" font="vector">+</text>
 <text x="3.556" y="25.908" size="0.6096" layer="21" font="vector">+</text>
