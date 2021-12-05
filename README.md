@@ -9,9 +9,9 @@ Main goal of the project is to improve EMC property of original board keeping it
 
 Preview:
 
-![Uno_v1.0 preview](Uno_v1.0.png)
+![Uno_v1.0 preview](img/Uno_v1.0.png)
 
-[Schematics in PDF format](Uno_v1.0.pdf)
+[Schematics in PDF format](doc/Uno_v1.0.pdf)
 
 Features:
 
